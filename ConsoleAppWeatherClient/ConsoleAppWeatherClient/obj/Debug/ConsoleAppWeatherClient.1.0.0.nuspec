@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ConsoleAppWeatherClient</id>
+    <version>1.0.0</version>
+    <authors>ConsoleAppWeatherClient</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Http" version="4.3.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\0031X8744\source\repos\ConsoleAppWeatherClient\ConsoleAppWeatherClient\bin\Debug\netcoreapp3.1\ConsoleAppWeatherClient.runtimeconfig.json" target="lib\netcoreapp3.1\ConsoleAppWeatherClient.runtimeconfig.json" />
+    <file src="C:\Users\0031X8744\source\repos\ConsoleAppWeatherClient\ConsoleAppWeatherClient\bin\Debug\netcoreapp3.1\ConsoleAppWeatherClient.dll" target="lib\netcoreapp3.1\ConsoleAppWeatherClient.dll" />
+  </files>
+</package>
